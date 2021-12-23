@@ -364,6 +364,7 @@
               </div>
               <div class="form-group mt-3">
                 <textarea class="form-control" name="message" rows="5" placeholder="Message" required>Dear Edward, </textarea>
+                <input type="hidden" name="site" id="site" value="smartrocket.co.uk/edwardcheung/">
               </div>
               <div class="text-center"><button type="submit">Send Message</button></div>
             </form>
@@ -446,6 +447,40 @@ s0.parentNode.insertBefore(s1,s0);
 })();
 </script>
 <!--End of Tawk.to Script--> 
+
+<script type="text/javascript">
+  var queryParamFieldIdMap = {
+      pl_matchtype: 'F_166_MATCHTYPE',
+      pl_campaignid: 'F_167_CAMPAIGNID',
+      pl_adgroupid: 'F_168_ADGROUPID',
+      pl_network: 'F_169_NETWORK',
+      pl_device: 'F_170_DEVICE',
+      pl_devicemodel: 'F_171_DEVICEMODEL',
+      pl_creative: 'F_172_CREATIVE',
+      pl_keyword: 'F_173_KEYWORD',
+      gclid: 'F_175_GCLID',
+  };
+
+  Object.keys(queryParamFieldIdMap).forEach(function (queryParam) {
+      var queryParamValue = sb.URI.getQueryParameterByName(queryParam);
+      $('input[name="' + queryParamFieldIdMap[queryParam] + '"]').val(queryParamValue).trigger('change');
+  });
+
+  $(document).ready(function () {
+      $("#fieldset2").hide();
+      $("#fieldset3").hide();
+  });
+
+  $(document).ready(function(){
+          $(document).on('click', '#submit', function(){ 
+
+          });
+
+          function stepone() {
+              $('form#form1').submit();
+          }
+  });
+</script>
 
 
 </body>

@@ -459,12 +459,26 @@
     </div>
   </footer><!-- End Footer -->
 
+<style type="text/css">
+  .cookiestyle {
+    margin-left: 10px; margin-right: 10px; left:1.5rem; bottom:2.625rem; position:fixed; border-radius:0.5rem;
+    box-shadow:0px 0.125rem 0.25rem rgba(0,0,0,0.08),0px 0.25rem 1.5rem rgba(0,0,0,0.08); z-index:1001; 
+  }
+  @media (max-width:23.5rem) {
+    .cookiestyle {
+      margin-left: 0px; margin-right: 0px; left: 0; bottom: 0;
+    }
+  }
+</style>
+
 <div class="row" id="cookie" style="">
   <div class="col-md-12 col-sm-12 m-2" >
-    <div class="p-2 pb-2 bg-dark bg-white text-black text-left" style="margin-left: 10px; margin-right: 10px; bottom: 10px; position:fixed;  border-radius:5px; box-shadow: 1px 2px 2px 1px; z-index:1001;">
+    <div class=" bg-white text-black text-left cookiestyle">
 
-      <div style="font-size: 12px;">By clicking on form field(s)/button(s) or other link(s) on this website or Accept, you agree to the use of cookies and other technologies to process your personal data to enhance and personalise your experience.  <a href="../privacy.html">Learn more here</a>
-        <button type="button" onclick="cookieFunction()" class="btn btn-danger px-2 p-0 " style="background-color: #20C19E; font-size: 12px;">Accept</button>
+      <div style="padding:1.5rem;  max-width:23.5rem; "><b>But first, cookies</b><br>
+        We use cookies to improve your user experience on our marketplace. By using our page, you agree to our <a href="../privacy.html">Privacy Policy</a>.
+        <br><br>
+        <button type="button" onclick="cookieFunction()" class="btn btn-danger" style="background-color: #20C19E; line-height: 1.5rem; width:100%;">Got it</button>
       </div>
       
     </div>

@@ -448,6 +448,43 @@ function cookieFunction() {
 </script>
 
 
+<style type="text/css">
+  .cookiestyle {
+    color: black; margin-left: 10px; margin-right: 10px; left:1.5rem; bottom:2.625rem; position:fixed; border-radius:0.5rem;
+    box-shadow:0px 0.125rem 0.25rem rgba(0,0,0,0.08),0px 0.25rem 1.5rem rgba(0,0,0,0.08); z-index:1001; 
+  }
+  @media (max-width:23.5rem) {
+    .cookiestyle {
+      margin-left: 0px; margin-right: 0px; left: 0; bottom: 0;
+    }
+  }
+</style>
+
+<div class="row" id="cookie" style="">
+  <div class="col-md-12 col-sm-12 m-2" >
+    <div class=" bg-white text-black text-left cookiestyle">
+
+      <div style="padding:1.5rem;  max-width:23.5rem; "><b>But first, cookies</b><br>
+        We use cookies to improve your user experience on our marketplace. By using our page, you agree to our <a href="../privacy.html">Privacy Policy</a>.
+        <br><br>
+        <button type="button" onclick="cookieFunction()" class="btn btn-danger" style="background-color: #20C19E; line-height: 1.5rem; width:100%;">Got it</button>
+      </div>
+      
+    </div>
+  </div>
+</div>
+
+<script>
+function cookieFunction() {
+  var x = document.getElementById("cookie");
+  if (x.style.display === "none") {
+    x.style.display = "block";
+  } else {
+    x.style.display = "none";
+  }
+}
+</script>
+
   <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
 
   <!-- Vendor JS Files -->

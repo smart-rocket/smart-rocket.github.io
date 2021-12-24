@@ -277,6 +277,14 @@ h1, h2, h3, h4, h5, h6 {
   right: 0;
 }
 
+#hero .carousel-control-next-icon, #hero .carousel-control-prev-icon {
+    background: none;
+    font-size: 48px;
+    line-height: 1;
+    width: auto;
+    height: auto;
+}
+
 #hero h1 {
   margin: 0;
   font-size: 64px;
@@ -1030,7 +1038,6 @@ section {
 
 .contact .php-email-form {
   width: 100%;
-  background: #fff;
 }
 
 .contact .php-email-form .form-group {

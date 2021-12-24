@@ -29,7 +29,7 @@ h1, h2, h3, h4, h5, h6 {
   font-weight: 400;
   margin: 0 0 20px 0;
   padding: 0;
-  color: #0e1b4d;
+  color: gray;
 }
 
 .main-page {
@@ -47,6 +47,7 @@ h1, h2, h3, h4, h5, h6 {
   overflow: visible;
   background: #fff url("../img/preloader.svg") no-repeat center center;
 }
+
 
 /*--------------------------------------------------------------
 # Back to top button
@@ -97,6 +98,7 @@ h1, h2, h3, h4, h5, h6 {
   height: 5px;
   background: #f82249;
   bottom: 0;
+  opacity: 80%;
 }
 
 .section-header h2 {
@@ -105,6 +107,15 @@ h1, h2, h3, h4, h5, h6 {
   text-align: right;
   margin-bottom: 10px;
   color: #c8102e;
+}
+
+.section-header h3 {
+  font-size: 30px;
+  text-transform: none;
+  text-align: right;
+  margin-bottom: 10px;
+  color: #c8102e;
+  opacity: 80%;
 }
 
 .section-header p {
@@ -117,7 +128,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .section-with-bg {
-  background-color: #f6f7fd;
+ 
 }
 
 /*--------------------------------------------------------------
@@ -638,7 +649,7 @@ h1, h2, h3, h4, h5, h6 {
   position: relative;
   color: #fff;
   padding: 60px 0 40px 0;
-  background-color: #c8102e;
+  background-color: #;
 }
 
 @media (min-width: 1024px) {
@@ -660,7 +671,7 @@ h1, h2, h3, h4, h5, h6 {
   font-size: 36px;
   font-weight: bold;
   margin-bottom: 10px;
-  color: #fff;
+  color: gray;
 }
 
 #about h3 {
@@ -668,13 +679,13 @@ h1, h2, h3, h4, h5, h6 {
   font-weight: bold;
   text-transform: uppercase;
   margin-bottom: 10px;
-  color: #fff;
+  color: gray;
 }
 
 #about p {
   font-size: 14px;
   margin-bottom: 20px;
-  color: #fff;
+  color: gray;
 }
 
 /*--------------------------------------------------------------
@@ -836,7 +847,7 @@ h1, h2, h3, h4, h5, h6 {
   transition: ease-in-out .2s;
   padding-top: 50px;
   padding-bottom: 20px;
-  background-color: #e2e4e6;
+  background-color: #fff;
 }
 
 #schedule .schedule-item {
@@ -886,7 +897,7 @@ h1, h2, h3, h4, h5, h6 {
 
 #schedule .schedule-item p {
   font-style: italic;
-  color: #152b79;
+  color: gray;
   margin-bottom: 0;
 }
 
@@ -1039,7 +1050,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #contact .php-email-form input, #contact .php-email-form textarea {
-  border-radius: 0;
+  border-radius: 5px;
   box-shadow: none;
   font-size: 14px;
 }
@@ -1092,14 +1103,14 @@ h1, h2, h3, h4, h5, h6 {
 # Footer
 --------------------------------------------------------------*/
 #footer {
-  background: #101522;
+  background: white;
   padding: 0 0 25px 0;
-  color: #eee;
+  color: gray;
   font-size: 14px;
 }
 
 #footer .footer-top {
-  background: #c8102e;
+  background: #fff;
   padding: 60px 0 30px 0;
 }
 
@@ -1114,7 +1125,7 @@ h1, h2, h3, h4, h5, h6 {
   line-height: 1;
   font-family: "Raleway", sans-serif;
   font-weight: 700;
-  color: #fff;
+  color: gray;
 }
 
 #footer .footer-top .footer-info img {
@@ -1127,7 +1138,7 @@ h1, h2, h3, h4, h5, h6 {
   line-height: 24px;
   margin-bottom: 0;
   font-family: "Raleway", sans-serif;
-  color: #fff;
+  color: gray;
 }
 
 #footer .footer-top .social-links a {
@@ -1152,13 +1163,13 @@ h1, h2, h3, h4, h5, h6 {
 
 #footer .footer-top .social-links a:hover {
   background: #f82249;
-  color: #fff;
+  color: gray;
 }
 
 #footer .footer-top h4 {
   font-size: 14px;
   font-weight: bold;
-  color: #fff;
+  color: gray;
   text-transform: uppercase;
   position: relative;
   padding-bottom: 12px;
@@ -1177,7 +1188,7 @@ h1, h2, h3, h4, h5, h6 {
 
 #footer .footer-top .footer-links ul i {
   padding-right: 5px;
-  color: white;
+  color: gray;
   font-size: 18px;
 }
 
@@ -1191,11 +1202,11 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #footer .footer-top .footer-links ul a {
-  color: #eee;
+  color: gray;
 }
 
 #footer .footer-top .footer-links ul a:hover {
-  color: #f82249;
+  color: gray;
 }
 
 #footer .footer-top .footer-contact {

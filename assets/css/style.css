@@ -1077,6 +1077,20 @@ h1, h2, h3, h4, h5, h6 {
   cursor: pointer;
 }
 
+#contact .php-email-form input[type="submit"]:hover {
+  background: #e0072f;
+}
+
+#contact .php-email-form input[type="submit"] {
+  background: #f82249;
+  border: 0;
+  padding: 10px 40px;
+  color: #fff;
+  transition: 0.4s;
+  border-radius: 50px;
+  cursor: pointer;
+}
+
 #contact .php-email-form button[type="submit"]:hover {
   background: #e0072f;
 }

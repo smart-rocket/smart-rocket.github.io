@@ -1386,6 +1386,19 @@ section {
   background: #ff5e31;
 }
 
+.contact .php-email-form input[type="submit"] {
+  background: #ff4a17;
+  border: 0;
+  padding: 10px 24px;
+  color: #fff;
+  transition: 0.4s;
+  border-radius: 4px;
+}
+
+.contact .php-email-form input[type="submit"]:hover {
+  background: #ff5e31;
+}
+
 @-webkit-keyframes animate-loading {
   0% {
     transform: rotate(0deg);
